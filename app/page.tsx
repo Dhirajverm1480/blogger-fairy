@@ -1,9 +1,10 @@
+import { Banners } from '@/components/Banners'
 import React from 'react'
 
 const Home = () => {
   return (
-    <section className='min-h-screen px-5'>
-      
+    <section className='min-h-screen'>
+      <Banners />
     </section>
   )
 }
